@@ -61,7 +61,7 @@ function Header(props) {
             </Nav>
             <Nav>
               {auth && auth === true && (
-                <span className="nav-link">Welcomeeee Userrrr</span>
+                <span className="nav-link">Welcome User</span>
               )}
               <NavDropdown title="Setting">
                 {auth && auth === true ? (
