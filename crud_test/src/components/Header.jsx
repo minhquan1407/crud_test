@@ -61,7 +61,7 @@ function Header(props) {
             </Nav>
             <Nav>
               {auth && auth === true && (
-                <span className="nav-link">Welcome Uer check log</span>
+                <span className="nav-link">Welcome Uer check log 3212132131212312321</span>
               )}
               <NavDropdown title="Setting">
                 {auth && auth === true ? (
