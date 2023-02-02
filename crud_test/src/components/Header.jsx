@@ -56,12 +56,12 @@ function Header(props) {
                 Unit-List
               </NavLink>
               <NavLink to="/productUnitById" className="nav-link">
-                ProductUnit-ById
+                ProductUnit-ById IDDDDDD
               </NavLink>
             </Nav>
             <Nav>
               {auth && auth === true && (
-                <span className="nav-link">Welcome Uer</span>
+                <span className="nav-link">Welcome Uer check log</span>
               )}
               <NavDropdown title="Setting">
                 {auth && auth === true ? (
