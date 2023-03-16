@@ -14,7 +14,7 @@ function App() {
     if (localStorage.getItem("token")) {
       dispatch(handleRefresh());
     }
-    //mỗi lần Refresh F5 lại thì nó sẽ add cái data account lại cho ta
+    //mỗi lần Refresh F5 lại thì nó sẽ add cái data account lại cho taeqwewqeqeqw
   }, []);
   return (
     <>
